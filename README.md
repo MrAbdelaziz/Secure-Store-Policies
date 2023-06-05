@@ -52,7 +52,7 @@ To use the YouCan Secure Store Policies class in your YouCan store, follow these
 4. Call the init() method to activate the security policies:
 
 ```javascript
-      storePolicies.init();
+  storePolicies.init();
 ```
 6. Deploy your YouCan store with the enhanced security measures provided by YouCan Secure Store Policies.
 
