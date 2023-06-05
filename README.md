@@ -71,6 +71,3 @@ YouCan Secure Store Policies is open source and available under the MIT License.
 
 ## Credits
 YouCan Secure Store Policies is developed and maintained by MrAbdelaziz. You can find the repository for this project on GitHub.
-
-## Contact
-For any inquiries or questions, you can reach out to MrAbdelaziz via GitHub or visit github.com/MrAbdelaziz.
