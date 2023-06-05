@@ -26,20 +26,35 @@ To use the YouCan Secure Store Policies class in your YouCan store, follow these
 1. Add the `store-policies.js` file to your project.
 2. Import the class in your main JavaScript file: `import StorePolicies from './store-policies.js';`
 3. Create an instance of the `StorePolicies` class and customize the security policies as needed:
-   ```javascript
+```javascript
    const options = {
      enableSubmitPolicy: true,
      submitTimes: 2,
      enableConsolePolicy: true,
      enableRightClickPolicy: true,
-     // Add other policies here as needed
+     enableInspectPolicy: true,
+     enableCopyPolicy: true,
+     enableDragPolicy: true,
+     enableSelectPolicy: true,
+     enablePrintPolicy: true,
+     enableSavePolicy: true,
+     enableViewSourcePolicy: true,
+     enableScreenshotPolicy: true,
+     enableDevToolsPolicy: true,
+     enableF12Policy: true,
+     enableCtrlShiftIPolicy: true,
+     enableReferralRedirectPolicy: true
    };
 
    const storePolicies = new StorePolicies(options);
    
    ```
 4. Call the init() method to activate the security policies:
-5. Deploy your YouCan store with the enhanced security measures provided by YouCan Secure Store Policies.
+
+```javascript
+      storePolicies.init();
+```
+6. Deploy your YouCan store with the enhanced security measures provided by YouCan Secure Store Policies.
 
 ## Contributions
 Contributions to the YouCan Secure Store Policies project are welcome. If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please open an issue or submit a pull request on the GitHub repository.
