@@ -1,7 +1,7 @@
-# YouCan Secure Store Policies
+# Secure Store Policies
 
 ## Description
-YouCan Secure Store Policies is a JavaScript class that provides a set of security policies for web stores created on the YouCan platform. This class aims to enhance the security of online stores by implementing measures to prevent unauthorized actions and protect sensitive data.
+Secure Store Policies is a JavaScript class that provides a set of security policies for web stores. This class aims to enhance the security of online stores by implementing measures to prevent unauthorized actions and protect sensitive data.
 
 ## Features
 - Disable submission after a certain number of times
@@ -23,16 +23,12 @@ YouCan Secure Store Policies is a JavaScript class that provides a set of securi
 
 
 ## Getting Started
-To use the YouCan Secure Store Policies class in your YouCan store, follow these steps:
+To use the YouCan Secure Store Policies class in your store, by adding the call to the cdn :
 
-1. Go to your YouCan store admin panel.
-2. Navigate to (https://seller-area.youcan.shop/admin/settings/online#css-js).
-3. open **CSS/JavaScript configs** tab.
-4. In the **Additional header code** input, add the following script tag:
    ```html
    <script src="https://cdn.jsdelivr.net/gh/MrAbdelaziz/YouCan-Secure-Store-Policies@549af3aeb5a34bc8cd10236f2fbad09721875985/StorePolicies.js"></script>
    ```
-5. In the Additional footer code input, add the following JavaScript code to create an instance of the StorePolicies class and activate the security policies:
+next add the following JavaScript code to create an instance of the StorePolicies class and activate the security policies:
 
 ```javascript
 <script>
@@ -64,10 +60,10 @@ To use the YouCan Secure Store Policies class in your YouCan store, follow these
 6. Save the changes.
 
 ## Contributions
-Contributions to the YouCan Secure Store Policies project are welcome. If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please open an issue or submit a pull request on the GitHub repository.
+Contributions to the Secure Store Policies project are welcome. If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please open an issue or submit a pull request on the GitHub repository.
 
 ## License
-YouCan Secure Store Policies is open source and available under the MIT License. Feel free to use, modify, and distribute this class for your own projects.
+Secure Store Policies is open source and available under the MIT License. Feel free to use, modify, and distribute this class for your own projects.
 
 ## Credits
-YouCan Secure Store Policies is developed and maintained by MrAbdelaziz. You can find the repository for this project on GitHub.
+Secure Store Policies is developed and maintained by MrAbdelaziz. You can find the repository for this project on GitHub.
