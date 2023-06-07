@@ -26,7 +26,7 @@ Secure Store Policies is a JavaScript class that provides a set of security poli
 To use the YouCan Secure Store Policies class in your store, by adding the call to the cdn :
 
    ```html
-   <script src="https://cdn.jsdelivr.net/gh/MrAbdelaziz/YouCan-Secure-Store-Policies@549af3aeb5a34bc8cd10236f2fbad09721875985/StorePolicies.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/MrAbdelaziz/Secure-Store-Policies/StorePolicies.js"></script>
    ```
 next add the following JavaScript code to create an instance of the StorePolicies class and activate the security policies:
 
